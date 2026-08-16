@@ -1,0 +1,4 @@
+# dsh-doubao-voice bundle patch：把插件插进 profile 插件树
+- insert:
+    - id: dsh-doubao-voice
+      name: dsh-doubao-voice
