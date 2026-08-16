@@ -1,7 +1,7 @@
 {
   "name": "dsh-doubao-voice",
-  "version": "0.1.4",
-  "description": "DSH WebUI 语音输入插件（火山引擎流式 ASR / 豆包 Seed ASR）：输入框麦克风按钮（Alt+V）→ 浏览器采集 16kHz PCM → 经宿主 WebSocket 中继到豆包流式识别 → 实时回填输入框（不自动发送）。协议实现源自 Proma 桌面端调研复刻。",
+  "version": "0.2.0",
+  "description": "DSH WebUI 语音输入插件（火山引擎流式 ASR / 豆包 Seed ASR）：输入框麦克风按钮（Alt+V）→ 浏览器采集 16kHz PCM → 经宿主 WebSocket 中继到豆包流式识别 → 实时回填（跟随光标/Proma 式输出，失败兜底剪贴板）。协议实现源自 Proma 桌面端调研复刻。",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
